@@ -4,7 +4,10 @@ Homebrew formulae for [RSafargalin](https://github.com/RSafargalin)'s tools.
 
 ```bash
 brew tap RSafargalin/tap
+brew trust RSafargalin/tap
 ```
+
+`brew trust` is required: Homebrew refuses to load formulae from an untrusted third-party tap.
 
 ## Formulae
 
